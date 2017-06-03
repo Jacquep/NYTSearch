@@ -1,3 +1,9 @@
+
+# NYTSearch  
+
+This app uses the full MERN stack to create a New York Times search engine.  I used Mongo as a database, Express for the routes, React for the reactive design of the page, and Node as the engine.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
