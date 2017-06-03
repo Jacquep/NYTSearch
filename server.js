@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
+console.log(process.cwd())
 app.use(express.static(process.cwd() + '/build'));
 
 //mongoose.connect('mongodb://localhost/nytreact');
@@ -74,7 +75,7 @@ app.delete('/api/saved/:id', function(req, res){
 });
 
 // app.get('/', function(req, res){
-//   res.sendFile('./public/index.html');
+//   res.sendFile('./build/index.html');
 // })
 
 app.listen(PORT, function() {
